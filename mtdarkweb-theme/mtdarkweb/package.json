@@ -1,0 +1,36 @@
+{
+  "name": "mtdarkweb",
+  "displayName": "mtdarkweb theme",
+  "description": "Dive into the shadows with this sleek and immersive theme for Visual Studio Code, designed to enhance your coding experience with dark elegance.",
+  "version": "0.0.1",
+  "publisher": "mtdarkweb",
+  "icon": "mt-dark-web-theme-profile.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itsmemdtofik/mtdarkweb-theme"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "mt dark",
+    "mt dark web",
+    "mt-dark-web",
+    "mtdarkweb theme",
+    "mtdarkweb"
+  ],
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "mtdarkweb",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mtdarkweb-color-theme.json"
+      }
+    ]
+  }
+}
